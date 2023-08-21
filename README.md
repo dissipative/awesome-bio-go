@@ -1,6 +1,6 @@
 # (Awesome?) List of Bioinformatics Software Written in the Go Language
 
-There are several reasons why there isn't as much software written in Go for bioinformatics. The primary reason is historical—
+There are several reasons why there isn't as much software written in Go for bioinformatics. The primary reason is historical —
 Languages like Python and R have historically been popular in the bioinformatics community due to their ease of use,
 extensive libraries, and strong community support.
 Many existing bioinformatics tools and workflows are already written in these languages,
@@ -13,22 +13,21 @@ it's possible that we'll see an increase in the number of bioinformatics project
 
 A quick search on the internet, especially on GitHub, has shown me that a lot of work has been done in this direction in the last decade.
 Starting from the classical "all-in-one bio package" _biogo_, which seems to have been abandoned in recent years, several enthusiasts continued to
-expand the code base and created more and more tools, mainly for molecular data manipulation. 
+expand the code base and created more and more tools, mainly for molecular data manipulation.
 
-I want to especially emphasize two
-developers and researchers: [Wei Shen](http://shenwei.me) from the Institute for Viral Hepatitis, China and
-[Brent Pedersen](https://github.com/brentp), a genomicist from the Netherlands—most of the libs and tools in this list were made by them.
+I want to especially emphasize two developers and researchers: [Wei Shen](http://shenwei.me) from the Institute for Viral Hepatitis, China and
+[Brent Pedersen](https://github.com/brentp), a genomicist from the Netherlands — most of the libs and tools in this list were made by them.
 I haven't had enough time yet to check all the items on the list, so I anticipate that it will change (be extended or refined) in the near future.
 
-Feel free to [send a pull request](https://github.com/dissipative/awesome-bio-go/compare), [open an 
+Feel free to [send a pull request](https://github.com/dissipative/awesome-bio-go/compare), [open an
 issue](https://github.com/dissipative/awesome-bio-go/issues/new), or DM for changes or send me your pieces of code!
 
 See also [awesome-biology](https://github.com/raivivek/awesome-biology) and [Awesome-Bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics).
 
-Table of Contents
-=================
+## Table of Contents
 
-- [List of Bioinformatics Projects Written in the Go Language](#awesome-list-of-bioinformatics-software-written-in-the-go-language)
+- [(Awesome?) List of Bioinformatics Software Written in the Go Language](#awesome-list-of-bioinformatics-software-written-in-the-go-language)
+  - [Table of Contents](#table-of-contents)
   - [Workflow and Pipeline Management](#workflow-and-pipeline-management)
   - [General Bioinformatics Libraries](#general-bioinformatics-libraries)
   - [Proteomics and Genomics Analysis](#proteomics-and-genomics-analysis)
@@ -37,6 +36,8 @@ Table of Contents
   - [Data Manipulation and Querying](#data-manipulation-and-querying)
   - [DICOM Parsing](#dicom-parsing)
   - [Name and Taxonomy Analysis](#name-and-taxonomy-analysis)
+  - [Biochemistry](#biochemistry)
+  - [License](#license)
 
 ## Workflow and Pipeline Management
 
@@ -63,6 +64,7 @@ Table of Contents
 - [bwt](https://github.com/shenwei356/bwt) — Burrows-Wheeler Transform and FM-index in Golang.
 - [gTaxon](https://github.com/shenwei356/gtaxon) — Fast cross-platform NCBI taxonomy data querying tool with cmd client and REST API server.
 - [Gotranseq](https://github.com/feliixx/gotranseq) — Convert nucleic sequence to protein sequence.
+- [spexs2](https://github.com/egonelbre/spexs2) — An exhaustive sequence pattern search tool
 
 ## Variant Analysis and Manipulation
 
@@ -88,5 +90,10 @@ Table of Contents
 
 - [GNfinder](https://github.com/gnames/gnfinder) — finds scientific names in UTF8 texts, PDF files, MS Word/Excel documents, URLs, etc.
 
+## Biochemistry
+
+- [goChem](https://github.com/rmera/gochem) — A library for Computational Chemistry in the Go programming language
+
 ## License
+
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
