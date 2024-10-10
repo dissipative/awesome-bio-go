@@ -56,6 +56,8 @@ data processing in the cloud
 - [bíogo](https://github.com/biogo/biogo) — Bioinformatics library for Go. (Updated 2 years ago!)
 - [Gonetics](https://github.com/pbenner/gonetics) — Go/Golang Bioinformatics Library. (Updated 2 years ago!)
 - [Grail Bioinformatics tools](https://github.com/grailbio/bio) — Bioinformatic infrastructure libraries.
+- [alignmentGO](https://github.com/codecreatede/alignmentGo) - analyzing large scale genome and gene alignments.
+- [diamond-mapper](https://github.com/codecreatede/go-mapper-diamond) - analyzing pacbiohifi reads and other read alignment for the genome annotation. 
 (Updated 3 years ago!)
 
 ## Proteomics and Genomics Analysis
