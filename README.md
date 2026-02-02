@@ -1,35 +1,22 @@
-# (Awesome?) List of Bioinformatics Software Written in the Go Language
+# Awesome Bioinformatics Software in Go
 
 There are several reasons why there isn't as much software written in Go for bioinformatics. The primary reason is
 historical — Languages like Python and R have historically been popular in the bioinformatics community due to their
 ease of use, extensive libraries, and strong community support. Many existing bioinformatics tools and workflows are
 already written in these languages, making it easier for new projects to build on top of existing solutions.
 
-Despite all the challenges, Go's simplicity, performance, and concurrency support could make it
-a viable option for certain bioinformatics applications, especially those that require efficient multi-threading
-or that need to be deployed as standalone binaries. As Go continues to grow and gain traction in various industries,
-it's possible that we'll see an increase in the number of bioinformatics projects written in the language.
+However, Go's simplicity, performance, and concurrency make it a strong fit for compute-heavy pipelines and portable command-
+line tools. This list curates Go-based bioinformatics software that is actively maintained and useful in practice.
 
-A quick search on the internet, especially on GitHub, has shown me that a lot of work has been done in this direction
-in the last decade. Starting from the classical "all-in-one bio package" _biogo_, which seems to have been abandoned in
-recent years, several enthusiasts continued to expand the code base and created more and more tools, mainly for
-molecular data manipulation.
-
-I want to especially emphasize two developers and researchers: [Wei Shen](http://shenwei.me) from the Institute for
-Viral Hepatitis, China and [Brent Pedersen](https://github.com/brentp), a genomicist from the Netherlands —
-most of the libs and tools in this list were made by them. I haven't had enough time yet to check all the items on the
-list, so I anticipate that it will change (be extended or refined) in the near future.
-
-Feel free to [send a pull request](https://github.com/dissipative/awesome-bio-go/compare),
-[open an issue](https://github.com/dissipative/awesome-bio-go/issues/new),
-or DM for changes or send me your pieces of code!
+See [CONTRIBUTING.md](CONTRIBUTING.md) for curation and audit policy, and [ARCHIVED.md](ARCHIVED.md) for inactive
+projects. Contributions are welcome via pull requests or issues.
 
 See also [awesome-biology](https://github.com/raivivek/awesome-biology) and
 [Awesome-Bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics).
 
 ## Table of Contents
 
-- [(Awesome?) List of Bioinformatics Software Written in the Go Language](#awesome-list-of-bioinformatics-software-written-in-the-go-language)
+- [Awesome Bioinformatics Software in Go](#awesome-bioinformatics-software-in-go)
   - [Table of Contents](#table-of-contents)
   - [Workflow and Pipeline Management](#workflow-and-pipeline-management)
   - [General Bioinformatics Libraries](#general-bioinformatics-libraries)
@@ -57,7 +44,7 @@ data processing in the cloud
 
 - [bíogo](https://github.com/biogo/biogo) — Bioinformatics library for Go.
 [ [Kortschak et al., 2017](https://doi.org/10.21105/joss.00167) ]
-- [Gonetics](https://github.com/pbenner/gonetics) — Go / Golang Bioinformatics Library.
+- [Gonetics](https://github.com/pbenner/gonetics) — Go bioinformatics library.
 - [Gonomics](https://github.com/vertgenlab/gonomics) — Toolkit and Go library for genomics and population genetics.
 [ [Au et al., 2023](https://doi.org/10.1093/bioinformatics/btad516) ]
 - [Grail Bioinformatics tools](https://github.com/grailbio/bio) — Bioinformatic infrastructure libraries.
