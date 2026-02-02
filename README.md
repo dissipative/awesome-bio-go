@@ -87,6 +87,7 @@ EMBOSS transeq).
 - [gofasta](https://github.com/virus-evolution/gofasta) — Command-line utilities for genomic epidemiology.
 [ [Jackson, 2022](https://doi.org/10.1093/bioinformatics/btac424) ]
 - [spexs2](https://github.com/egonelbre/spexs2) — An exhaustive sequence pattern search tool.
+[ [Rahni et al., 2022](https://doi.org/10.1038/s43856-022-00114-7) ]
 
 ## Phylogenetics and Alignments
 
@@ -117,6 +118,7 @@ NCBI-style taxdump files for custom taxonomies like GTDB/ICTV.
 databases, and files.
 - [countminsketch](https://github.com/shenwei356/countminsketch) — Implementation of Count-Min Sketch in Golang.
 - [csvtk](https://github.com/shenwei356/csvtk) — Cross-platform, efficient, and practical CSV/TSV toolkit in Golang.
+[ [Shen et al., 2023](https://doi.org/10.5281/zenodo.8096728) ]
 
 ## DICOM Parsing
 
@@ -126,10 +128,12 @@ databases, and files.
 
 - [GNfinder](https://github.com/gnames/gnfinder) — Finds scientific names in UTF8 texts, PDF files,
 MS Word/Excel documents, URLs, etc.
+[ [Mozzherin et al., 2024](https://doi.org/10.5281/zenodo.11584025) ]
 
 ## Biochemistry
 
 - [goChem](https://github.com/rmera/gochem) — A library for Computational Chemistry in the Go programming language.
+[ [Dominguez et al., 2025](https://doi.org/10.1002/jcc.70004) ]
 
 ## Archived Projects
 
