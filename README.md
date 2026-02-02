@@ -40,6 +40,7 @@ See also [awesome-biology](https://github.com/raivivek/awesome-biology) and
   - [DICOM Parsing](#dicom-parsing)
   - [Name and Taxonomy Analysis](#name-and-taxonomy-analysis)
   - [Biochemistry](#biochemistry)
+  - [Archived Projects](#archived-projects)
   - [License](#license)
 
 ## Workflow and Pipeline Management
@@ -53,14 +54,14 @@ data processing in the cloud
 
 ## General Bioinformatics Libraries
 
-- [bíogo](https://github.com/biogo/biogo) — Bioinformatics library for Go. (Updated 2 years ago!)
-- [Gonetics](https://github.com/pbenner/gonetics) — Go/Golang Bioinformatics Library. (Updated 2 years ago!)
+- [bíogo](https://github.com/biogo/biogo) — Bioinformatics library for Go.
+- [Gonetics](https://github.com/pbenner/gonetics) — Go / Golang Bioinformatics Library.
 - [Grail Bioinformatics tools](https://github.com/grailbio/bio) — Bioinformatic infrastructure libraries.
-(Updated 3 years ago!)
 
 ## Proteomics and Genomics Analysis
 
-- [Philosopher](https://github.com/Nesvilab/philosopher) — Complete toolkit for shotgun proteomics data analysis.
+- [Philosopher](https://github.com/Nesvilab/philosopher) — PeptideProphet, PTMProphet, ProteinProphet, iProphet, Abacus,
+and FDR filtering.
 - [samql](https://github.com/maragkakislab/samql) — SQL-like query language for the SAM/BAM file format.
 
 ## Sequence Analysis and Manipulation
@@ -69,12 +70,13 @@ data processing in the cloud
 - [KMCP](https://github.com/shenwei356/kmcp) — Accurate metagenomic profiling and fast large-scale sequence/genome
 searching. [ [paper](https://doi.org/10.1093/bioinformatics/btac845) ]
 - [bio](https://github.com/shenwei356/bio) — Lightweight and high-performance bioinformatics package in Golang.
-- [unikmer](https://github.com/shenwei356/unikmer) — Toolkit for k-mers with taxonomic information.
+- [unikmer](https://github.com/shenwei356/unikmer) — A versatile toolkit for k-mers with taxonomic information.
 - [bwt](https://github.com/shenwei356/bwt) — Burrows-Wheeler Transform and FM-index in Golang.
-- [gTaxon](https://github.com/shenwei356/gtaxon) — Fast cross-platform NCBI taxonomy data querying tool with
-cmd client and REST API server.
-- [Gotranseq](https://github.com/feliixx/gotranseq) — Convert nucleic sequence to protein sequence.
-- [spexs2](https://github.com/egonelbre/spexs2) — An exhaustive sequence pattern search tool
+- [gTaxon](https://github.com/shenwei356/gtaxon) — Fast, cross-platform NCBI taxonomy query tool with CLI and REST API;
+supports gi2taxid, taxid2taxon, name2taxid, and LCA.
+- [Gotranseq](https://github.com/feliixx/gotranseq) — Translate nucleic acid sequences to peptide sequences (like
+EMBOSS transeq).
+- [spexs2](https://github.com/egonelbre/spexs2) — An exhaustive sequence pattern search tool.
 
 ## Variant Analysis and Manipulation
 
@@ -91,25 +93,29 @@ in a single static binary.
 
 ## Data Manipulation and Querying
 
-- [taxonkit](https://github.com/shenwei356/taxonkit) — Practical and efficient NCBI Taxonomy Toolkit,
-supports creating NCBI-style taxdump files.
-- [bget](https://github.com/shenwei356/bget) — Portable command-line tool to query bioinformatics APIs, data,
+- [taxonkit](https://github.com/shenwei356/taxonkit) — Practical and efficient NCBI Taxonomy Toolkit, supports creating
+NCBI-style taxdump files for custom taxonomies like GTDB/ICTV.
+- [bget](https://github.com/clindet/bget) — Portable command-line tool to query bioinformatics APIs, data,
 databases, and files.
 - [countminsketch](https://github.com/shenwei356/countminsketch) — Implementation of Count-Min Sketch in Golang.
 - [csvtk](https://github.com/shenwei356/csvtk) — Cross-platform, efficient, and practical CSV/TSV toolkit in Golang.
 
 ## DICOM Parsing
 
-- [go-dicom](https://github.com/grailbio/go-dicom) — DICOM parser for Golang.
+- [dicom](https://github.com/suyashkumar/dicom) — High-performance DICOM medical image parser with library and CLI.
 
 ## Name and Taxonomy Analysis
 
-- [GNfinder](https://github.com/gnames/gnfinder) — finds scientific names in UTF8 texts, PDF files,
+- [GNfinder](https://github.com/gnames/gnfinder) — Finds scientific names in UTF8 texts, PDF files,
 MS Word/Excel documents, URLs, etc.
 
 ## Biochemistry
 
-- [goChem](https://github.com/rmera/gochem) — A library for Computational Chemistry in the Go programming language
+- [goChem](https://github.com/rmera/gochem) — A library for Computational Chemistry in the Go programming language.
+
+## Archived Projects
+
+See [ARCHIVED.md](ARCHIVED.md) for projects that are archived, unmaintained, or removed.
 
 ## License
 

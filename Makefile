@@ -1,4 +1,4 @@
-PHONY: init
+PHONY: init init-deps
 
 init-deps:
 	@npm install -g markdownlint-cli
